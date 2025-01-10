@@ -5,9 +5,10 @@
   "description": "Food Ordering App",
   "scripts": {
     "start": "parcel index.html",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "parcel build index.html",
+    "postbuild": "copy build\\index.html build\\404.html",
     "test": "jest"
   },
   "keywords": [
