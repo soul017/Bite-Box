@@ -6,9 +6,9 @@
   "scripts": {
     "start": "parcel index.html",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "build": "parcel build index.html",
-    "postbuild": "copy dist\\index.html dist\\404.html",
+    "postbuild": "copy build\\index.html build\\404.html",
     "test": "jest"
   },
   "keywords": [
