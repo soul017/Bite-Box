@@ -8,8 +8,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "parcel build index.html",
-    "postbuild": "copy build\\index.html build\\404.html",
-    "test": "jest"
+"postbuild": "copy build/index.html build/404.html"
+,    "test": "jest"
   },
   "keywords": [
     "none"
