@@ -84,6 +84,8 @@ const applayout = createBrowserRouter([
     ],
     errorElement: <Error />,
   },
-]);
+],{
+  basename:"/Bite-box",
+});
 const root = ReactDOM.createRoot(document.querySelector(".root"));
 root.render(<RouterProvider router={applayout} />);
