@@ -3111,13 +3111,15 @@ const applayout = (0, _reactRouterDom.createBrowserRouter)([
             columnNumber: 19
         }, undefined)
     }
-]);
+], {
+    basename: "/Bite-box"
+});
 const root = (0, _clientDefault.default).createRoot(document.querySelector(".root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterProvider), {
     router: applayout
 }, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 89,
+    lineNumber: 91,
     columnNumber: 13
 }, undefined));
 var _c, _c1;
