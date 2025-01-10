@@ -4,9 +4,9 @@
   "version": "1.0.0",
   "description": "Food Ordering App",
   "scripts": {
-    "bitebox": "parcel index.html",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "start": "parcel index.html",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
     "build": "parcel build index.html",
     "test": "jest"
   },
